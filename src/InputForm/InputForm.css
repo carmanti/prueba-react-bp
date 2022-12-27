@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  /* flex-direction: column; */
+  margin: auto;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.content__input {
+  align-items: center;
+  height: 30px;
+  width: 300px;
+  border: 2px solid rgb(179, 177, 177);
+  border-radius: 8px 0 0 8px;
+}
+.content__button {
+  cursor: pointer;
+  font-size: 15px;
+  width: 80px;
+  height: 35px;
+  border-radius: 0 8px 8px 0;
+  border: 2px solid rgb(109, 108, 108);
+}
+.content__button:hover {
+  background-color: gray;
+  color: aliceblue;
+}
+
+.button__eliminar {
+  width: 70px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(9, 72, 207);
+}
+.list {
+  display: flex;
+  margin: auto;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.list ul {
+  text-decoration: none;
+  list-style: none;
+}
+.list ul li {
+  display: flex;
+  flex-direction: column;
+}
